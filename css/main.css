@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #b8ff82;
+    background: #0d3b87;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2914,6 +2914,20 @@ header.header {
   .links-of-blogroll-item a {
     padding: 0 5px;
   }
+}
+body {
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.main-inner {
+  opacity: 0.95;
+}
+.header-inner {
+  opacity: 0.95;
+  z-index: 10;
 }
 .main-inner .sub-menu,
 .main-inner .post-block,
