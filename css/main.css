@@ -293,6 +293,7 @@ blockquote {
   color: var(--blockquote-color);
   margin: 0;
   padding: 0 15px;
+  word-break: break-all;
 }
 blockquote cite::before {
   content: '-';
@@ -1385,7 +1386,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #8a7c63;
+    background: #d0ff22;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
